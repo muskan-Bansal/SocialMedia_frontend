@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000' || 'https://moodupserver.onrender.com/',
+  baseURL: 'https://mood-up-back.onrender.com/' || 'http://localhost:5000',
 });
 
 API.interceptors.request.use((req) => {
